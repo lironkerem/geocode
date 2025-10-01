@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     
     const response = await fetch(nominatimUrl, {
       headers: {
-        'User-Agent': 'SelfAnalysisApp/1.0 (Contact: your-email@example.com)' // Update with your email
+        'User-Agent': 'SelfAnalysisApp/1.0 (Contact: lironkerem@gmail.com)' // Update with your email
       }
     });
 
